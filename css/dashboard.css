@@ -25,3 +25,24 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.profile button{
+    border: solid black 0.2px;
+}
+
+.my-profile-page-container{
+    height: calc(100vh - 193px);
+}
+
+body select{
+    width: 100%;
+}

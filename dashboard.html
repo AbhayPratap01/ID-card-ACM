@@ -24,25 +24,18 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
                 <ul class="navbar-nav">
-                    <div class='nav-name'>
-                        Hi, Sample Name
-                    </div>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="dashboard.html">
                             <i class="fas fa-user"></i>Dashboard
                         </a>
                     </li>
                     <div class="nav-vl"></div>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fas fa-sign-out-alt"></i>Logout
-                        </a>
-                    </li>
                 </ul>
             </div>
         </nav>
     </div>
-
+    <div class="br"></div>
     <div id="loading">
     </div>
 
@@ -56,7 +49,7 @@
             </li>
         </ol>
     </nav>
-
+    <div class="br"></div>
     <div class="my-profile page-container">
         <h1>My Profile</h1>
         <div class="row">
@@ -66,10 +59,26 @@
             <div class="col-md-9">
                 <div class="row no-gutters justify-content-between align-items-end">
                     <div class="profile">
-                        <div class="name">Sample Name</div>
-                        <div class="email">samplexyz@gmail.com</div>
-                        <div class="phone">999999999</div>
-                        <div class="college">BVCOE</div>
+                        <div class="name">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="phone">
+                            <input type="text" placeholder="Roll Number">
+                        </div>
+                        <select name="position" id="position">
+                            <option value="Executive">Executive</option>
+                            <option value="Head">Head</option>
+                            <option value="Gen Sec">Gen Sec</option>
+                            <option value="Vice Chairperson">Vice Chairperson</option>
+                          </select>
+                    
+                        <!-- <div class="college">
+                            <h3>ACM</h3>
+                            <h3>BVCOE</h3>
+                        </div> -->
+                        <div class="submit-button">
+                            <button>SUBMIT</button>
+                        </div>
                     </div>
                     <div class="edit">
                         <div class="edit-profile">Edit Profile</div>
@@ -78,14 +87,17 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="page-container footer-container">
-            <div class="footer-copyright">© 2020 Copyright PG Life </div>
-        </div>
-    </div>
+    <div class="blanck-space"></div>
+    
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
+<footer>
+    <div class="page-container footer-container">
+        <div class="footer-copyright">© 2020 Copyright PG Life </div>
+    </div>
+</footer>
+
 
 </html>

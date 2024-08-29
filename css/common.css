@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 body {
     color: #373737;
+    background-color: #212121;
     font-size: 16px;
     position: relative;
     height: 100vh;
@@ -72,8 +72,12 @@ input[type="radio"] {
 
 .page-container {
     max-width: 800px;
-    padding: 80px 24px;
+    width: 80vw;
+    padding: 40px 24px;
     margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
     
 }
 
@@ -200,3 +204,7 @@ footer {
 
 }
 
+.user-profile-image i{
+    height: 100%;
+    width: 100px;
+}
